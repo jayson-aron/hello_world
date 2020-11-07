@@ -13,4 +13,11 @@
 
 
 # The hello world version for my github
-print('Hello GitHub World!')
+def print_hello():
+    '''Prints Hello GitHub World! to the standart output'''
+
+    print('Hello GitHub World!')
+
+
+if __name__ == '__main__':
+    print_hello()
